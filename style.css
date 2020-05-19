@@ -1,0 +1,9 @@
+.titulo{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    font-weight: bold;
+    padding: 10px;
+}
