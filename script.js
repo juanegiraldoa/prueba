@@ -4,11 +4,19 @@ let respuesta = document.getElementById("respuesta");
 
 
 no.addEventListener('mouseover', () => {
+    modificar();
+});
+
+no.addEventListener('click', () => {
+    modificar();
+});
+
+function modificar() {
     let top = Math.floor((Math.random() * 80) + 1);
     let left = Math.floor((Math.random() * 80) + 1);
     let estilo = `position: absolute; top: ${top}%; left: ${left}%;`;
     no.style = estilo;
-});
+}
 
 // no.addEventListener('click', () => {
 //     respuesta.innerHTML = ":(";
